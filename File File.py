@@ -48,15 +48,30 @@
 # sum = first + second 
 # print("Sum: " + str(sum))
 
-#String
-# course = "Python for Begineers" #this is an object
-# course. shows you all the methods they can do, but print and input are not type acgnostic
-name = "jamie"
-print(name.upper()) #remembmer you need to invoke it
-print(name.find("am"))
-#python first index is 0
-#rememer its case sensntive, so if they can't find it, then it's -1
-print(name.replace("a", "A"))
-#whenever we replace something, we're saving a new string in memory - strings are immuntable, whenever we change it, we end up with a new string in nemory
-print("x" in name)
-#in operator - this returns a boolean 
+# #String
+# # course = "Python for Begineers" #this is an object
+# # course. shows you all the methods they can do, but print and input are not type acgnostic
+# name = "jamie"
+# print(name.upper()) #remembmer you need to invoke it
+# print(name.find("am"))
+# #python first index is 0
+# #rememer its case sensntive, so if they can't find it, then it's -1
+# print(name.replace("a", "A"))
+# #whenever we replace something, we're saving a new string in memory - strings are immuntable, whenever we change it, we end up with a new string in nemory
+# print("x" in name)
+# #in operator - this returns a boolean 
+
+#Arithimic Operators
+# print(10 + 3)
+# print(10 - 3)
+# print(10 * 3)
+# print(10 / 3) #singular slash gives you a float
+# print(10 // 3) #double gives you integer
+# print(10 % 3) #modulo, remainders
+# print(10 ** 3) #10 to the power of 3
+x = 10
+x = x + 3
+print(x)
+y = 10
+y += 3
+print(y) #augmented assignment 
