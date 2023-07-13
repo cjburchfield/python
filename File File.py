@@ -23,6 +23,13 @@
 
 #Type Conversion
 #There are three types of data in Python number, string, booleans - you can convert these types
+#Whenever we call input function, it returns value as a string, even if we enter a number
+# birth_year = input("Enter your birth year: ")
+# age = 2023 - int(birth_year)
+# print(age)
 
-birth_year = input("Enter your birth year: ")
-age = 2023 - birth_year
+#float is for converting values to floating point number, floats are numbers with decimal - 10 is an integer, 10.1 is a float
+# int()
+# float()
+# bool() #convert to boolean
+# str() #convert to string
