@@ -33,3 +33,17 @@
 # float()
 # bool() #convert to boolean
 # str() #convert to string
+
+#Calculator exercise
+# first_num = input("Enter the first number: ")
+# second_num = input("Enter the second number: ")
+# # sum = int(first_num) + int(second_num)
+# # total = str(sum)
+# # print("Sum: " + total)
+# # sum = str(float(first_num) + float(second_num))
+# print("Sum: " + sum)
+
+first = float(input("First: "))
+second = float(input("Second: "))
+sum = first + second 
+print("Sum: " + str(sum))
