@@ -43,7 +43,20 @@
 # # sum = str(float(first_num) + float(second_num))
 # print("Sum: " + sum)
 
-first = float(input("First: "))
-second = float(input("Second: "))
-sum = first + second 
-print("Sum: " + str(sum))
+# first = float(input("First: "))
+# second = float(input("Second: "))
+# sum = first + second 
+# print("Sum: " + str(sum))
+
+#String
+# course = "Python for Begineers" #this is an object
+# course. shows you all the methods they can do, but print and input are not type acgnostic
+name = "jamie"
+print(name.upper()) #remembmer you need to invoke it
+print(name.find("am"))
+#python first index is 0
+#rememer its case sensntive, so if they can't find it, then it's -1
+print(name.replace("a", "A"))
+#whenever we replace something, we're saving a new string in memory - strings are immuntable, whenever we change it, we end up with a new string in nemory
+print("x" in name)
+#in operator - this returns a boolean 
