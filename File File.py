@@ -101,12 +101,37 @@
 #no curly braces, use indentations in python
 #see elif for else if
 
-temp = 19
-if temp > 30: 
-  print("It is a hot day")
-  print("Drink plenty of water")
-elif temp > 20:
-  print("It is a nice day")
+# temp = 19
+# if temp > 30: 
+#   print("It is a hot day")
+#   print("Drink plenty of water")
+# elif temp > 20:
+#   print("It is a nice day")
+# else:
+#   print("Final statement")
+# print("Done")
+
+#Exercise
+# weight - kg or lbs
+# k for l  - case insenstive 
+# then gies you teh convererer 
+
+#my solution
+# weight = input("Weight: ")
+# type = input("(L) for lbs or (K) for kls: ")
+# numWeight = int(weight)
+# cleanType = type.lower()
+# if cleanType == "l":
+#   print(numWeight * 5)
+# else:
+#   print(numWeight / 5)
+
+#his  solution
+weight = int(input("Weight: "))
+unit = input("(K)g or (L)lbs: ")
+if unit.upper() == "K":
+  converted = weight / 0.45
+  print("Weight in lbs: " + str(converted))
 else:
-  print("Final statement")
-print("Done")
+  converted = weight * 0.45
+  print("Weight in kgs: " + str(converted))
