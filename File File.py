@@ -69,9 +69,30 @@
 # print(10 // 3) #double gives you integer
 # print(10 % 3) #modulo, remainders
 # print(10 ** 3) #10 to the power of 3
-x = 10
-x = x + 3
-print(x)
-y = 10
-y += 3
-print(y) #augmented assignment 
+# x = 10
+# x = x + 3
+# print(x)
+# y = 10
+# y += 3
+# print(y) #augmented assignment 
+
+#Operator Precedence
+#multiplication and division have a higher order - it is the exact same as math in python, but you can wrap in paranthesis if you want addition and subtraction
+
+#Comparison Operators
+#booleran expressions produce boolean values
+# >
+# >= 
+# <
+# <=
+# ==
+# !=
+
+#Logitical Operators
+# price = 25
+# print(price > 10 and price < 30)
+#or operators, if one is true, it will return true
+# print(price > 10 or price < 30)
+#and (returns true if both expressiosn are true)
+# or (returns true if at least one is true)
+#not inverses any of the values you give it
