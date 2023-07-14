@@ -96,3 +96,17 @@
 #and (returns true if both expressiosn are true)
 # or (returns true if at least one is true)
 #not inverses any of the values you give it
+
+#If statements, you need a double quote if you have an apostropher in your string
+#no curly braces, use indentations in python
+#see elif for else if
+
+temp = 19
+if temp > 30: 
+  print("It is a hot day")
+  print("Drink plenty of water")
+elif temp > 20:
+  print("It is a nice day")
+else:
+  print("Final statement")
+print("Done")
